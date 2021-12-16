@@ -1,0 +1,1 @@
+/usr/bin/c++  -march=native -std=c++11 -g -rdynamic CMakeFiles/nfllib_demo8_60_uint32_t_op.dir/nfllib_demo8_60_uint32_t_op.cpp.o -o nfllib_demo8_60_uint32_t_op  -Wl,-rpath,/home/hongchxie2/github/sgx-fv/NFLlib:/usr/local/lib ../libnfllib.so /usr/local/lib/libgmp.so /usr/local/lib/libmpfr.so 

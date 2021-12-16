@@ -1,0 +1,1 @@
+/usr/bin/c++  -march=native -std=c++11 -g -rdynamic CMakeFiles/nfl_neq8192_124_uint64_t.dir/nfl_neq8192_124_uint64_t.cpp.o -o nfl_neq8192_124_uint64_t  -Wl,-rpath,/home/hongchxie2/github/sgx-fv/NFLlib:/usr/local/lib ../libnfllib.so /usr/local/lib/libgmp.so /usr/local/lib/libmpfr.so 

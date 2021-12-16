@@ -1,0 +1,14 @@
+enclave {
+    from "Sealing/Sealing.edl" import *;
+    from "sgx_tstdc.edl" import *;
+
+    trusted {
+        /* define ECALLs here. */
+        public void ecall_generate_plain([user_check]void* ct_bin, [user_check]void* isCt3, [user_check]int* dataFilter);
+        public void ecall_save_secret_key([user_check]void* sk_bin_str);
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+    };
+};

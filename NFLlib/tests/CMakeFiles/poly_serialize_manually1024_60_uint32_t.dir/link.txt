@@ -1,0 +1,1 @@
+/usr/bin/c++  -march=native -std=c++11 -g -rdynamic CMakeFiles/poly_serialize_manually1024_60_uint32_t.dir/poly_serialize_manually1024_60_uint32_t.cpp.o -o poly_serialize_manually1024_60_uint32_t  -Wl,-rpath,/home/hongchxie2/github/sgx-fv/NFLlib:/usr/local/lib ../libnfllib.so /usr/local/lib/libgmp.so /usr/local/lib/libmpfr.so 
